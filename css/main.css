@@ -117,3 +117,100 @@
 	width: 70px;
 }
 
+.eye-left, .eye-right{
+	width: 14px;
+	border-radius: 7px;
+	background-color: #264c73;
+
+	/*add at end end of animation*/
+	height: 22px;
+}
+
+.eye-left{
+	float: left;
+}
+
+.eye-right{
+	margin-left: 56px;
+}
+
+.sockets{
+	position: absolute;
+	z-index: 59;
+	top: 155px;
+	left: 50%;
+	margin-left: -38px;
+	width: 76px;
+}
+
+.socket-left{
+	float: left;
+}
+
+.socket-right{
+	float:right;
+}
+
+.socket-left, .socket-right{
+	height: 10px;
+	width: 20px;
+	border-radius: 0 0 10px 10px;
+
+	/*add at end of animation*/
+	background-color: #cc6600;
+	opacity: .1;
+}
+
+.earsandtemples{
+	position: absolute;
+	z-index: 1;
+	top: 160px;
+	left: 50%;
+	margin-left: -70px;
+	width: 140px;
+}
+
+.ear-left, .ear-right{
+	position: absolute;
+	width: 10px;
+	background-color: #fff7e5;
+}
+
+.ear-left{
+	border-bottom-left-radius: 10px;
+}
+
+.ear-right{
+	border-bottom-right-radius: 10px;
+}
+
+.temple-left, .temple-right{
+	position: absolute;
+	width: 5px;
+	/*add after animation*/
+	height: 20px;
+	bottom: -20px;
+	opacity: 1;
+}
+
+.temple-left{
+	left: 10px;
+	background-color: #ffd11a;
+}
+
+.temple-right{
+	right: 10px;
+	background-color: #ffd11a;
+}
+
+.mouth{
+	position: absolute;
+	top: 195px;
+	left: 50%;
+	margin-left: -25px;
+	width: 50px;
+	border-radius: 0 0 25px 25px;
+	background-color: #fff;
+	/*add after animation*/
+	height: 20px;
+}
