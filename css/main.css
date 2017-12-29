@@ -214,3 +214,14 @@
 	/*add after animation*/
 	height: 20px;
 }
+
+/*shirt*/
+.shirt{
+	position: absolute;
+	z-index: 39;
+	bottom: -10px;
+	left: 50%;
+	margin-left: -90px;
+	width: 180px;
+	background-color: black;
+}
