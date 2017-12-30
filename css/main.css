@@ -225,3 +225,38 @@
 	width: 180px;
 	background-color: black;
 }
+
+/*logo*/
+.logo{
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	z-index: 49;
+	left: 50%;
+	bottom: -35px;
+	margin-left: -60px;
+	width: 120px;
+	height: 105px;
+	color: blue;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.love{
+	color: red;
+}
+
+.i, .love, .c, .s1, .s2{
+	margin-top: 100px;
+	/*add end animation*/
+	margin-top: 25px;
+}
+
+
+
+/*animation*/
+@keyframes bigger{
+	0% {height: 200px; width: 200px; margin-top: 40px;}
+	75%{transform: scale(1, 1);}
+	100%{transform: scale(.8, .8); margin-top: 0;}
+}
