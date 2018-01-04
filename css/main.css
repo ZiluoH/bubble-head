@@ -414,12 +414,12 @@ body{
 }
 .nose{
 	position: absolute;
-	top:50%;
+	top:87px;
 	left: 50%;
 	margin-top:-5px;
 	height: 30px;
 	border-top-left-radius: 15px;
-	background-color:  #fff7e5;
+	background-color:  #ffece5;
 	animation:toleft 0.5s 4.7s forwards;
 }
 @keyframes toleft{
